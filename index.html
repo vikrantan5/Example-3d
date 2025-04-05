@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3d website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <img class="image-gradient" src="gradient.png" alt="gradient" />
+    <div class="layer-blur"></div>
+
+    <div class="container">
+      <header>
+        <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">
+          VIKSTAR
+        </h1>
+
+        <nav>
+          <a data-aos="fade-down" data-aos-duration="2000" href="#">Home</a>
+          <a data-aos="fade-down" data-aos-duration="2500" href="#">Services</a>
+          <a data-aos="fade-down" data-aos-duration="3000" href="#">About</a>
+          <a data-aos="fade-down" data-aos-duration="3500" href="#"
+            >Contact Us</a
+          >
+        </nav>
+        <button
+          data-aos="fade-down"
+          data-aos-duration="4000"
+          class="btn-signing"
+        >
+          Sign In
+        </button>
+      </header>
+
+      <main>
+        <div class="content">
+          <div
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="1500"
+            class="tag-box"
+          >
+            <div class="tag">INTRODUCING &wedbar;</div>
+          </div>
+          <h1
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="2000"
+          >
+            EMAIl FOR <br />
+            DEVELOPER
+          </h1>
+          <p
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"
+            data-aos-duration="2500"
+            class="description"
+          >
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            vitae nobis est sequi vero quibusdam inventore dignissimos laborum
+            repudiandae adipisci.
+          </p>
+        </div>
+        <div
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+          data-aos-duration="3000"
+          class="buttons"
+        >
+          <a href="#" class="btn-get-started">Documentation &gt;</a>
+          <a href="#" class="btn-signing-main">Learn More &gt;</a>
+        </div>
+      </main>
+      <spline-viewer
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0"
+        data-aos-duration="3500"
+        class="robot-3d"
+        url="https://prod.spline.design/nG9ZOXAL3QEq1MUU/scene.splinecode"
+      ></spline-viewer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.9.82/build/spline-viewer.js"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
